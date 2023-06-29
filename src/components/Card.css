@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.content {
+    background-color: #151718;
+    color: white;
+    border-radius: 5px;
+    padding: 50px 100px;
+    font-family: 'Source Code Pro', monospace;
+} 
+
+.variable {
+    color: #e6cd6a;
+}
+
+.variable-name {
+    color: #54b6db;
+}
+
+.indent {
+    margin-left: 58px;
+}
+
+.comment {
+    color: #42525b
+}
