@@ -27,3 +27,11 @@
 .comment {
     color: #42525b
 }
+
+.string {
+    color: #51add1;
+}
+
+.function {
+    color: #a074c4;
+}

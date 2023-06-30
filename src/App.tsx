@@ -7,9 +7,9 @@ function App() {
     title: "Map",
     description: "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.",
     content: () => <>
-      <p><span className="variable">const</span> <span className='variable-name'>names</span> = ["Ludwig", "Michael", "Arjay"]</p>
+      <p><span className="variable">const</span> <span className='variable-name'>names</span> = [<span className='string'>"Ludwig"</span>, <span className='string'>"Michael"</span>, <span className='string'>"Arjay"</span>];</p>
       <br />
-      <p><span className="variable">const</span> <span className='variable-name'>newNames</span> = <span className='variable-name'>names</span>.map(name =&gt; {"{"} <br />
+      <p><span className="variable">const</span> <span className='variable-name'>newNames</span> = <span className='variable-name'>names</span>.<span className='function'>map</span>(name =&gt; {"{"} <br />
       <p className="indent">return "Awesome " + name</p>
       {"}"})</p>
       <br />
