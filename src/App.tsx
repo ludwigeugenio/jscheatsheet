@@ -13,7 +13,7 @@ function App() {
       <p className="indent"><span className='reserve'>return</span> <span className='string'>"Awesome "</span> + <span className='variable-name'>name</span></p>
       {"}"})</p>
       <br />
-      <p>console.log(newNames)</p>
+      <p><span className='variable-name'>console</span>.<span className='function'>log</span>(<span className='variable-name'>newNames</span>)</p>
       <br />
       <p className='comment'>&gt;&gt; ["Awesome Ludwig", "Awesome Michael", "Awesome Arjay"]</p>
     </>
