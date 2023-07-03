@@ -2,14 +2,16 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
+    width: 50%;
 }
 
 .content {
     background-color: #151718;
     color: white;
     border-radius: 5px;
-    padding: 50px 100px;
+    padding: 25px 50px;
     font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
 } 
 
 .reserve {

@@ -21,11 +21,11 @@ function App() {
   }
 
   return (
-    <>
-      <h1>JavaScript Cheat Sheet</h1>
+    <div className='container'>
+      <h1 className='header'>JavaScript Cheat Sheet</h1>
       <Card title={jsMap.title} description={jsMap.description} Content={jsMap.content} />
 
-    </>
+    </div>
   )
 }
 
