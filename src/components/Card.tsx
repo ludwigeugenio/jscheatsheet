@@ -8,8 +8,8 @@ interface Props {
 
 const Card: React.FC<Props> = ({title, description, Content}) => {
     return <div className="card">
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2 className="title">{title}</h2>
+        <p className="description">{description}</p>
         <div className="content">
             <Content />
         </div>

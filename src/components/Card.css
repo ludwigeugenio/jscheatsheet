@@ -5,13 +5,23 @@
     width: 50%;
 }
 
+.title {
+    margin-bottom: 20px;
+    font-family: "San Francisco";
+}
+
+.description {
+    font-family: "San Francisco";
+}
+
 .content {
     background-color: #151718;
     color: white;
     border-radius: 5px;
     padding: 25px 50px;
-    font-family: 'Source Code Pro', monospace;
     margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+
 } 
 
 .reserve {
