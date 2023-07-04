@@ -3,15 +3,15 @@ import "./Card.css"
 interface Props {
     title: string,
     description: string,
-    Content: React.FC,
+    children: React.ReactElement,
 }
 
-const Card: React.FC<Props> = ({title, description, Content}) => {
+const Card: React.FC<Props> = ({title, description, children}) => {
     return <div className="card">
         <h2 className="title">{title}</h2>
         <p className="description">{description}</p>
         <div className="content">
-            <Content />
+            {children}
         </div>
     </div>
 }
