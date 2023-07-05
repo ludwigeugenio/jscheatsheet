@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 20px 0;
+    font-family: "San Francisco";
+}
+

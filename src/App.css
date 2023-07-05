@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  padding: 20px 0;
-  font-family: "San Francisco";
-}
-
 .container {
   width: 1440px;
   margin: 0 auto;

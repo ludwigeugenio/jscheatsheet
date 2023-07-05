@@ -1,8 +1,8 @@
 import './App.css'
 import Card from "./components/Card"
+import Navbar from './components/Navbar'
 
 function App() {
-
   const jsMap = {
     title: "Map",
     description: "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.",
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1 className='header'>JavaScript Cheat Sheet</h1>
+      <Navbar />
       <Card title={jsMap.title} description={jsMap.description}>
         <jsMap.MapContent />
       </Card>
